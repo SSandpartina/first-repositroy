@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* you have to add height to make it aligned in the centre verticaly */
+}
+
+#card-container {
+  width: 400px;
+  height: 200px;
+  background-color: mediumseagreen;
+  display: flex;
+  background-image: url(../img/bg-img.png);
+  background-size: cover;
+  filter: drop-shadow(0 0 10px black);
+  border: 4px black;
+}
+
+#picture-panel {
+  width: 140px;
+  height: 200px;
+  /* background-color: black; */
+}
+
+#info-panel {
+  width: 260px;
+  height: 200px;
+  /* background-color: olive; */
+}
+
+#mugshot {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  padding: 50px 20px 50px 20px;
+  filter: drop-shadow(0 0 30px rgb(0, 68, 24));
+}
+
+#text-panel {
+  width: 260px;
+  height: 200px;
+  align-items: center;
+  padding: 50px 20px 50px 20px;
+}
+
+h4 {
+  margin: 0;
+}
